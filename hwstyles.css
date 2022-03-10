@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #efefef;
+    color: #0a151f;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    /*font: 16px normal 'Poppins', sans-serif;*/
+}
+
+.return {
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    opacity: 80%;
+}
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+/*************************************************************/
+
+.task1-link {
+    color: black;
+    text-decoration: none;
+}
+
+.task1-link:hover {
+    text-decoration: underline;
+    color: indigo;
+    background: aquamarine;
+}
+
+.task1-link:active {
+    color: blue;
+}
+
+.task1-link:visited {
+    color: grey;
+}
+
+/*************************************************************************************/
+
+.task-card {
+    border-radius: 20px;
+    background-color: #f4fdf4;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right:40px;
+    margin-top: 20px;
+    width: 800px;
+    border: 2px solid #5f5f5f;
+}
+
+.card h3 {
+    text-decoration: dotted;
+}
+
+.flag {
+    background: white;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.circle {
+    background: red;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+/****************************************************************************/
+
+.list-group {
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0;
+    width: 300px;
+}
+
+.list-group-item  {
+    padding: 10px;
+    border: 0;
+    border-radius: 0;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item:nth-child(1)  {
+     padding: 10px;
+     border: 0;
+     border-radius: 0;
+}
+
+.list-group-item:hover {
+    background-color: #0d6efd;
+}
+
+.list-group-item:hover:nth-child(1) {
+    background-color: #0d6efd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:hover:last-child {
+    background-color: #0d6efd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list-group-item  a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-group-item:hover  a {
+    color: white;
+}
+
+/******************************************************/
+
+.card {
+    width: 350px;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-title {
+    font-size: larger;
+    margin: 0;
+}
+
+.card-body {
+    margin: 20px;
+    font-family: inherit;
+}
+
+.card-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #e45d80;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.card-img-top {
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
