@@ -14,11 +14,11 @@
 
     <p>Write a JavaScript program to display the current day and time in the following format.</p>
 
-    <p>Today is Tuesday.</p>
+    <span id="task1Date"></span>
 
-    <p>Current time is  23 : 30 : 38</p>
+    <br>
 
-    <strong>Solution is in the console</strong>
+    <span id="task1Time"></span>
 
 </div>
 
@@ -35,7 +35,7 @@
 
     <p>Write a JavaScript program to get the current date. Expected Output : dd-mm-yyyy, dd/mm/yyyy</p>
 
-    <strong>Solution is in the console</strong>
+    <span id="task3Date"></span>
 
 </div>
 
@@ -44,8 +44,14 @@
 
     <p>Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.</p>
 
+    <form>
+        <label for="task4Year">Enter a year</label>
+        <input type="text" id="task4Year">
+        <input type="button" value="Check leap year" onclick="task4Res()">
+    </form>
 
-    <strong>Solution is in the console</strong>
+    <span id="task4Result"></span>
+
 </div>
 
 
@@ -81,6 +87,60 @@
         <p>The Result is :</p> <span id="result"></span>
     </form>
     
+</div>
+
+
+<div class="task-card">
+    <h3>Task 7.</h3>
+
+    <p>Write a JavaScript program to get the website URL (loading page).</p>
+
+    <span id="theURL"></span>
+
+</div>
+
+
+<div class="task-card">
+    <h3>Task 8.</h3>
+
+    <p>Write a JavaScript exercise to create a variable using a user-defined name. </p>
+
+    <form>
+        <label for="task8Name">Enter variable name: </label>
+        <input type="text" id="task8Name">
+        <input type="button" value="Upload" onclick="createVariableByName()">
+    </form>
+
+    <span id="task8Msg"></span>
+
+</div>
+
+
+<div class="task-card">
+    <h3>Task 9.</h3>
+
+    <p>Write a JavaScript program to reverse a given string. </p>
+
+    <form>
+        <label for="task9String">Enter string to be reversed: </label>
+        <input type="text" id="task9String">
+        <input type="button" value="Reverse" onclick="stringReverser()">
+    </form>
+
+    <span id="task9Reversed"></span>
+
+</div>
+
+
+<div class="task-card">
+    <h3>Task 10.</h3>
+
+    <p>Write a JavaScript program to rotate the string 'Hello, World!' in right direction by periodically removing one letter from the end of the string and attaching it to the front. </p>
+
+    <input type="button" value="Animate" onclick="animateString('task10Target')">
+
+    <p id="task10Target">Hello, World! </p>
+
 </div>
 
 <script src="app.js"></script>
